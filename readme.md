@@ -4,7 +4,9 @@ Supports Footpatrol, size?, JD Sports, and The Hip Store.
 
 ## Running the script
 Make sure you're in the mesh-scraper directory.
-```python3 main.py```
+```
+python3 main.py
+```
 
 ## Setup/Configuration
 Make sure to use proxies or run the scraper with a throwaway IP. The IP address used to scrape will be flagged and will receive soft bans on a bunch of different websites.
@@ -24,7 +26,8 @@ Each request will be assigned a random proxy from the proxies list.
 ### Discord
 The scraper can post PIDs to discord as soon as it finds them.
 Just set the discord_webhook variable in main.py to your full webhook URL.
-![](https://i.imgur.com/hEuDpPk.png)
+
+![new pid found](https://i.imgur.com/hEuDpPk.png)
 
 ## todo
 - User friendly installation/configuration
